@@ -1,0 +1,55 @@
+.spark-ring-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+
+.spark-ring {
+  transform: rotate(-90deg);
+}
+
+.ring-bg {
+  stroke: #ddd;
+}
+
+.ring-fg {
+  transition: stroke-dashoffset 0.5s ease;
+}
+
+.spark-ring-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.spark-ring-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.spark-ring-label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.ring-completed {
+  animation: ringGlow 0.8s ease-out;
+}
+
+@keyframes ringGlow {
+  0% {
+    stroke-width: 10;
+    filter: drop-shadow(0 0 0px rgba(0, 200, 0, 0));
+  }
+  50% {
+    stroke-width: 14;
+    filter: drop-shadow(0 0 12px rgba(0, 200, 0, 0.6));
+  }
+  100% {
+    stroke-width: 10;
+    filter: drop-shadow(0 0 0px rgba(0, 200, 0, 0));
+  }
+}
