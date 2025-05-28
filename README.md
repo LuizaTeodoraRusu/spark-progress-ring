@@ -95,6 +95,13 @@ Data is removed only when the browser/tab is closed.
 | Fitness Log	Progress  | Progress towards a running goal (in km)         |
 | Pomodoro Count          | Track completed Pomodoro sessions               |
 
+## 📸 Screenshots
+![Home](./assets/Screenshot_19.png)
+![Adding a task](./assets/Screenshot_1.png)
+![Progress ring](./assets/Screenshot_2.png)
+![Update progress](./assets/Screenshot_3.png)
+![Completed task](./assets/Screenshot_4.png)
+
 
 ## 📚 License & Acknowledgements
 This project was created by Luiza Teodora Rusu as part of the Framework Design course at UBB.
